@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dothraki Translator</title>
+    <link rel="icon" href="images/targarean.jpg" type="image/gif">
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="jumbotron" id="header"> 
+        <div class="row">
+            <div class="col-md-10">
+                <h1>Dothraki Translator</h1>
+                <p>HOUSE TARGARYEN</p>
+            </div>
+            <div class="col-md-2 pl-2">
+                <img src="images/got.jpg" alt="got">
+            </div>
+        </div>
+    </div>
+    <main>
+        <textarea name="inputtext" id="inputtext" class="inputtext my-4" style= "font-family: 'Uchen', serif" placeholder="Enter your text"></textarea>
+        <button id="translate-btn" class="btn btn-primary"><span style= "font-family: 'Uchen', serif">Translate </span></button>
+        <p class="translated-text mt-4">Here is the translated text in Dothraki:</p>
+        <textarea name="outputtext" class="mt-4 mb-5" id="outputtext" style= "font-family: 'Uchen', serif"></textarea>
+    </main>
+    <footer>
+        <div class="footer-background">
+            <div class="footer-text">
+                <h3>About</h3>
+                <p>Are you a fan of Game of Thrones? Mainly Khal? Did you know that the language they say is an actual language. Use the translator to convert your text from English to Dothraki.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap scripts start -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap scripts end -->
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
